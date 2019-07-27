@@ -1,0 +1,36 @@
+{
+    "name": "omny/yii2-page-module",
+    "description": "Yii2 page module",
+    "license": "BSD-2-Clause",
+    "authors": [
+        {
+            "name": "Omny",
+            "email": "hello.omny@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php": ">=7.2.0",
+        "yiisoft/yii2": "^2.0.23"
+    },
+    "require-dev": {
+        "codeception/codeception": "*",
+        "yiisoft/yii2-debug": "*",
+        "yiisoft/yii2-faker": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "omny\\yii2\\page\\module\\": "src/",
+            "tests\\": "tests/"
+        }
+    },
+    "config": {
+        "process-timeout": 1800
+    },
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://asset-packagist.org"
+        }
+    ]
+}
